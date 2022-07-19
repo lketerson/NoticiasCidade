@@ -1,0 +1,252 @@
+/* ==================================CONFIGS GERAIS=================================== */
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    border: 2px solid #dfdfdf;
+}
+/*BODY - BACKGROUND */
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+
+}
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    color: #e50040;
+}
+/* LISTS */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+li a{ 
+    text-decoration: none;
+}
+/* TEXT */
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    color: white;
+    background-color: #b10333;
+}
+/* ==================================CONFIGS GERAIS=================================== */
+
+/* HEADER - NAVBAR */
+#head-container{
+    width: 750px;
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+    text-indent: -100vw;
+}
+
+.head-menu ul{
+    margin-top: 30px;
+    background-color: #b10333;
+    float: left;
+}
+.head-menu ul li{
+    float: left;
+}
+.head-menu ul li a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) center left no-repeat;
+}
+
+.head-menu ul .primeiro a{
+    background: none;
+}
+
+
+.head-menu ul li a:hover{
+    color: #69001d;
+}
+
+body.home .head-menu a#home,
+body.brasil .head-menu a#brasil,
+body.internacional .head-menu a#internacional,
+body.economia .head-menu a#economia,
+body.ciencia .head-menu a#ciencia,
+body.fotos .head-menu a#fotos,
+body.saude .head-menu a#saude
+{
+
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+
+/* CONTEUDO  - CORPO */
+#main-container{
+    background: #f5f5f5;
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 60px;
+
+}
+
+.conteudo-primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+
+#double-column .conteudo-primario{
+    width: 555px;
+}
+
+#single-column .conteudo-primario
+{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+.conteudo-secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* CORPO - MAIN */
+.conteudo-primario .caixa-conteudo{
+    background-color: white;
+}
+
+
+/* CORPO MAIN LISTAS */
+.lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+.lista-noticias li:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.lista-noticias li a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+.lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+
+.lista-noticias li a h3{
+    padding: 0;
+    color:  #3e7ab9;
+    background-color: white;
+}
+
+.lista-noticias li img{
+    float: left;
+    margin: 5px;
+    width: 80px;
+    border: none;
+
+}
+
+
+/* CORPO - LATERAL - MENU */
+.conteudo-lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+h2{
+    font-size: 1.1em;
+    color: white;
+    background:#294c71 ;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.conteudo-lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+}
+.conteudo-lateral ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+/* FORMULARIO - LATERAL */
+.conteudo-lateral label{
+    display: block;
+    cursor: pointer;
+}
+
+.conteudo-lateral input{
+    width: 150px;
+    padding: 5px;
+    font-size: 0.9em;
+    background: white;
+
+}
+
+.conteudo-lateral input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    cursor: pointer;
+}
+
+/* RODAPE */
+#container-rodape{
+    clear: both;
+    background-color: #294c71;
+    padding: 20px;
+}
+#container-rodape .rodape{
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
+
